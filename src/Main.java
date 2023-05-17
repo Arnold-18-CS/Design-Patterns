@@ -1,6 +1,17 @@
+import Adapter_Design_Pattern.FahrenheitToCelsiusConversion;
+import Decorator_Design_Pattern.DisplayFormat_Decorator_Class;
+import Decorator_Design_Pattern.Rectangle;
+import Decorator_Design_Pattern.RectangleArea;
+import Decorator_Design_Pattern.Unit_Decorator_Class;
+import Factory_Method.Shape;
+import Factory_Method.Square;
+import Factory_Method.Triangle;
 import Observer_Design_Pattern.TrafficLight;
-import Observer_Design_Pattern.TrafficLight0b;
+import Observer_Design_Pattern.TrafficLightDisplaying;
+import Observer_Design_Pattern.TrafficLightObserver;
 import Singleton_Design_Pattern.SingletonDatabaseConnection;
+
+import static java.lang.Math.round;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,14 +31,15 @@ public class Main {
         // only one connection was instantiated
         System.out.println(connection1 == connection2 && connection2 == connection3);
 
-
-
+        //Creating an object from the concrete subject
         TrafficLight trafficLight = new TrafficLight();
 
-        TrafficLight0b.TrafficLightObserver Intersection1 = new TrafficLight0b.TrafficLightDisplaying("Intersection 1");
-        TrafficLight0b.TrafficLightObserver Intersection2 = new TrafficLight0b.TrafficLightDisplaying("Intersection 2");
-        TrafficLight0b.TrafficLightObserver Intersection3 = new TrafficLight0b.TrafficLightDisplaying("Intersection 3");
+        // Initializing observers
+        TrafficLightObserver Intersection1 = new TrafficLightDisplaying("Intersection 1");
+        TrafficLightObserver Intersection2 = new TrafficLightDisplaying("Intersection 2");
+        TrafficLightObserver Intersection3 = new TrafficLightDisplaying("Intersection 3");
 
+        //Registering observers
         trafficLight.registerObserver(Intersection1);
         trafficLight.registerObserver(Intersection2);
         trafficLight.registerObserver(Intersection3);
@@ -39,6 +51,23 @@ public class Main {
         trafficLight.removeObserver(Intersection2);
 
         trafficLight.setState("Yellow");
+
+        //Creating an object of the adapter class
+        FahrenheitToCelsiusConversion adapter = new FahrenheitToCelsiusConversion();
+        double tempFahr = 100;
+        double tempCelcius  = adapter.totalConversion(tempFahr);
+        System.out.println("UNCONVERTED: "+tempFahr);
+        System.out.println("CONVERTED: " + tempCelcius);
+
+
+        //Creating the concrete implementation of the interface
+        Rectangle rectangle = new RectangleArea(10,10);
+
+        //Decorating the area output
+        rectangle = new Unit_Decorator_Class(rectangle, "inches");
+        rectangle = new DisplayFormat_Decorator_Class(rectangle,1);
+
+        rectangle.calculateArea();
 
     }
 }
