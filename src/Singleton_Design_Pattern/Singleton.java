@@ -1,3 +1,5 @@
+package Singleton_Design_Pattern;
+
 import java.sql.*;
 
 public class Singleton {
@@ -32,7 +34,7 @@ public class Singleton {
 
     }
 
-    public void addInstance() throws RuntimeException {
+    public static void upload() throws RuntimeException {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -40,12 +42,8 @@ public class Singleton {
             System.out.println("DATABASE CONNECTION SUCCESS");
 
             Statement statement = connection.createStatement();
-            //PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO `singleton`(`singleton_id`, `singleton`) VALUES ('?','?')");
-            //preparedStatement.setString(1,instance.toString());
-            //preparedStatement.execute();
-            //System.out.println("INSERTION COMPLETE");
-            //preparedStatement.close();
             String insertOperation = "INSERT INTO `singleton`(`singleton`) VALUES ('"+ instance + "')";
+            getInstance();
             statement.execute(insertOperation); // we use .execute() because INSERT is an OPERATION NOT QUERY
 
 

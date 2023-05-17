@@ -12,4 +12,18 @@ package Factory_Method;
                 throw new IllegalArgumentException("Invalid animal type: " + type);
             }
         }
-    }
+
+     public static class Cat extends Animal {
+         @Override
+         public String getName() {
+             return "Factory_Method.Animal.Cat";
+         }
+     }
+
+     public static class Dog extends Animal {
+         @Override
+         public String getName() {
+             return "Factory_Method.Animal.Dog";
+         }
+     }
+ }
