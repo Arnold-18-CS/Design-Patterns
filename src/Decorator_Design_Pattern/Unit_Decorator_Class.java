@@ -1,5 +1,5 @@
 package Decorator_Design_Pattern;
-
+//creating the decorator class that modifies the core object
 public class Unit_Decorator_Class implements Rectangle {
     protected Rectangle decoratedRectangle;
     private String unit;

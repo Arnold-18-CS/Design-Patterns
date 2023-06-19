@@ -10,7 +10,7 @@ public class SingletonDatabaseConnection {
 
         try{
             //Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybd", "root","");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root","");
             System.out.println("CONNECTION SUCCESSFUL");
 
         }catch (Exception e){

@@ -1,5 +1,6 @@
 package Decorator_Design_Pattern;
 
+//creating the core object: concrete class that implements the interface
 public class RectangleArea implements Rectangle {
     private float length,width;
 

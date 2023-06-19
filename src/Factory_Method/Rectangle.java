@@ -1,5 +1,5 @@
 package Factory_Method;
-
+// example of a concrete creator
 public class Rectangle extends Shape {
     @Override
     public String getProperties() {

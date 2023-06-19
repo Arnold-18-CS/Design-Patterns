@@ -1,5 +1,5 @@
 package Decorator_Design_Pattern;
-
+// second decorator class to modify the core object
 public class DisplayFormat_Decorator_Class extends Unit_Decorator_Class {
     private  int Number_of_Decimal_Places;
 

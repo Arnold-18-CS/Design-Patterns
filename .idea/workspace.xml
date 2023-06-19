@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65125f1b-3d12-491b-b8ed-57c083272258" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Design-Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Adapter_Design_Pattern/FahrenheitToCelsiusConversion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Adapter_Design_Pattern/KelvinLib.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Decorator_Design_Pattern/DisplayFormat_Decorator_Class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Decorator_Design_Pattern/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Decorator_Design_Pattern/RectangleArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Decorator_Design_Pattern/Unit_Decorator_Class.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Animal$Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Animal$Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Factory_Method/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Observer_Design_Pattern/TrafficLight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Observer_Design_Pattern/TrafficLightDisplaying.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Observer_Design_Pattern/TrafficLightObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Observer_Design_Pattern/TrafficLightSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Singleton_Design_Pattern/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Design-Patterns/Singleton_Design_Pattern/SingletonDatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator_Design_Pattern/DisplayFormat_Decorator_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator_Design_Pattern/DisplayFormat_Decorator_Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator_Design_Pattern/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator_Design_Pattern/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator_Design_Pattern/RectangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator_Design_Pattern/RectangleArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator_Design_Pattern/Unit_Decorator_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decorator_Design_Pattern/Unit_Decorator_Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory_Method/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory_Method/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory_Method/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory_Method/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton_Design_Pattern/SingletonDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton_Design_Pattern/SingletonDatabaseConnection.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2RQIigWvQ92RsCsIEcDg1zt03MF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HomePC/Downloads/jar_files/mysql-connector-java-5.1.47.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65125f1b-3d12-491b-b8ed-57c083272258" name="Changes" comment="" />
+      <created>1687176008858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687176008858</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

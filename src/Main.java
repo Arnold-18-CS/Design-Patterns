@@ -16,6 +16,7 @@ import static java.lang.Math.round;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("SINGLETON OUTPUT");
         SingletonDatabaseConnection connection1 = SingletonDatabaseConnection.getInstance();
         System.out.println(connection1);
 
@@ -30,7 +31,10 @@ public class Main {
         //Confirms that both connections point to the same instance i.e.
         // only one connection was instantiated
         System.out.println(connection1 == connection2 && connection2 == connection3);
+        System.out.println();
 
+
+        System.out.println("OBSERVER OUTPUT");
         //Creating an object from the concrete subject
         TrafficLight trafficLight = new TrafficLight();
 
@@ -51,13 +55,16 @@ public class Main {
         trafficLight.removeObserver(Intersection2);
 
         trafficLight.setState("Yellow");
+        System.out.println();
 
+        System.out.println("ADAPTER OUTPUT");
         //Creating an object of the adapter class
         FahrenheitToCelsiusConversion adapter = new FahrenheitToCelsiusConversion();
         double tempFahr = 100;
         double tempCelcius  = adapter.totalConversion(tempFahr);
         System.out.println("UNCONVERTED: "+tempFahr);
         System.out.println("CONVERTED: " + tempCelcius);
+
 
 
         //Creating the concrete implementation of the interface
@@ -68,6 +75,12 @@ public class Main {
         rectangle = new DisplayFormat_Decorator_Class(rectangle,1);
 
         rectangle.calculateArea();
+
+
+        //creating the product of the concrete creator
+        Shape newrectangle = new Factory_Method.Rectangle();
+        System.out.println(newrectangle.getProperties());
+
 
     }
 }
